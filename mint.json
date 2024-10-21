@@ -60,8 +60,43 @@
       "pages": ["development/startup/server", "development/startup/samples"]
     }
   ],
-  "feedback": {
-    "suggestEdit": true,
-    "raiseIssue": true
+  "footer": {
+    "socials": { "github": "https://github.com/0xfrk/" },
+    "links": [
+      {
+        "title": "Framework",
+        "links": [
+          { "label": "Frames.js", "url": "https://framesjs.org/" },
+          { "label": "frog", "url": "https://frog.fm/" },
+          { "label": "OnchainKit", "url": "https://onchainkit.xyz/" }
+        ]
+      },
+      {
+        "title": "Documents",
+        "links": [
+          { "label": "Farcaster Docs", "url": "https://docs.farcaster.xyz/" },
+          { "label": "Airstack Docs", "url": "https://docs.airstack.xyz/" },
+          { "label": "Moxie Developer", "url": "https://developer.moxie.xyz/" },
+          { "label": "Awesome Frames", "url": "https://github.com/davidfurlong/awesome-frames" }
+        ]
+      },
+      {
+        "title": "API",
+        "links": [
+          { "label": "Airstack API Studio", "url": "https://app.airstack.xyz/api-studio" },
+          { "label": "Farcaster Hub", "url": "https://swagger.airstack.xyz/hubs" },
+          { "label": "Airstack API Status", "url": "https://status.airstack.xyz/ui/statuspages" }
+        ]
+      },
+      {
+        "title": "Dev Tools",
+        "links": [
+          { "label": "Frames Embeds", "url": "https://warpcast.com/~/developers/embeds" },
+          { "label": "Frames Validator", "url": "https://warpcast.com/~/developers/frames" },
+          { "label": "Cast Actions", "url": "https://warpcast.com/~/developers/cast-actions" },
+          { "label": "Composer Actions", "url": "https://warpcast.com/~/developers/composer-actions" }
+        ]
+      }
+    ]
   }
 }
