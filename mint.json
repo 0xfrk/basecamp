@@ -61,7 +61,6 @@
     }
   ],
   "footer": {
-    "socials": { "github": "https://github.com/0xfrk/" },
     "links": [
       {
         "title": "Framework",
@@ -97,6 +96,7 @@
           { "label": "Composer Actions", "url": "https://warpcast.com/~/developers/composer-actions" }
         ]
       }
-    ]
+    ],
+    "socials": { "github": "https://github.com/0xfrk/" }
   }
 }
