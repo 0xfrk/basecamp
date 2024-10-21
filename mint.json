@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "GitHub",
-    "url": "https://github.com/0xfrk/"
+    "url": "https://github.com/0xfrk/basecamp"
   },
   "tabs": [
     {
@@ -31,32 +31,37 @@
       "url": "development"
     }
   ],
+  "primaryTab": {
+    "name": "Environment"
+  },
   "navigation": [
     {
-      "group": "さあ、始めましょう！",
+      "group": "Environment",
       "pages": ["introduction"]
     },
     {
       "group": "Windows",
-      "pages": [
-        "windows/introduction",
-        "windows/runtime",
-        "windows/version-control"
-      ]
+      "pages": ["windows/runtime", "windows/version-control", "windows/code-editor"]
     },
     {
       "group": "macOS",
-      "pages": ["mac/introduction"]
+      "pages": ["mac/runtime", "mac/version-control", "mac/code-editor"]
     },
     {
       "group": "Development",
-      "pages": [
-        "development/introduction",
-        "development/git",
-        "development/framework",
-        "development/airstack-api",
-        "development/airstack-sdk"
-      ]
+      "pages": ["development/introduction"]
+    },
+    {
+      "group": "Setup",
+      "pages": ["development/setup/packages", "development/setup/repository"]
+    },
+    {
+      "group": "Startup",
+      "pages": ["development/startup/server", "development/startup/samples"]
     }
-  ]
+  ],
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
+  }
 }

@@ -1,0 +1,68 @@
+---
+title: Packages
+description: "スターターキットでのセットアップ"
+icon: "cube"
+---
+
+## インストール手順
+
+以下の手順に従ってフレーム開発に必要なパッケージをインストールしましょう。
+
+### 1. テンプレートからプロジェクトをブートストラップする
+
+エディタを起動し、キーボードの `Ctrl + Shift + @` でエディタのターミナルを開き、表示されている現在のディレクトリがフレームのソースを格納する親ディレクトリであるか確認の上、以下のコマンドを実行しましょう。
+
+```bash
+npm init frames@latest
+```
+
+コマンドを実行すると以下のメッセージが表示されるため、**事前に作成したリモートリポジトリ名と同じ名前** を入力して **Enter** キーを押しましょう。
+
+```
+Enter the name of your project
+```
+
+次に以下のメッセージが表示されるため、**next-starter-with-examples** を選択して **Enter** キーを押しましょう。
+
+```
+Choose a template for the project
+```
+
+次に以下のメッセージが表示されるため、**No** を選択して **Enter** キーを押しましょう。
+
+```
+Do you want to install the dependencies using yarn?
+```
+
+インストールが問題なく完了すると以下のメッセージが表示されます。<br />
+※**プロジェクト名** は最初に入力したプロジェクト名になります。
+
+```
+◆  Initialized a git repository.
+│
+│  Next steps:
+│
+◇  1. Go to the project directory by running: cd ./[プロジェクト名]
+│
+◇  2. Start the development server and run the app in debugger by running: yarn dev
+│
+◇  3. Open your browser and go to http://localhost:3010 to see your app running in the debugger
+│
+└  Done! Your project has been set up! 🎉
+```
+
+### 2. プロジェクトディレクトリに移動
+
+完了メッセージに表示されている通り、ターミナルで以下のコマンドを実行します。
+
+```bash
+cd ./[プロジェクト名]
+```
+
+### 3. パッケージをインストール
+
+ターミナルに表示されている現在のディレクトリがプロジェクトディレクトリであるか確認の上、以下のコマンドを実行します。
+
+```bash
+npm install
+```

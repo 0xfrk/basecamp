@@ -1,10 +1,12 @@
 ---
 title: "ランタイム環境"
-description: "Node.jsのインストール"
+description: "ランタイム環境のセットアップ"
 icon: "node-js"
 ---
 
-## インストール手順
+## Node.js のインストール
+
+以下の手順に従って Node.js のインストールを行います。
 
 ### 1. インストーラーのダウンロード
 
@@ -15,25 +17,45 @@ https://nodejs.org/en/download/prebuilt-installer
 ### 2. インストール
 
 1. ダウンロードしたインストーラーをダブルクリックで実行します。
-2. インストーラーが起動したら、「Next」をクリックします。
-3. End-User License Agreement の画面が表示されるため「I accept the terms in the License Agreement」にチェックを入れ、「Next」をクリックします。
-4. Destination Folder の画面が表示されるため、インストール先は変更せずに、「Next」をクリックします。
-5. Custom Setup の画面が表示されるため、そのまま「Next」をクリックします。
-6. Tools for Native Modules の画面が表示されるため、そのまま「Next」をクリックします。
-7. Ready to Install Node.js の画面が表示されるため、「Install」をクリックします。
-8. ユーザーアカウント制御「このアプリがデバイスに変更を加えることを許可しますか？」の画面が表示された場合は「はい」をクリックします。
-9. インストールが完了したら、「Finish」をクリックしてインストーラーを終了します。
+2. インストーラーが起動したら、**Next** をクリックします。
+3. **End-User License Agreement** の画面が表示されるため、**I accept the terms in the License Agreement** にチェックを入れ、**Next** をクリックします。
+4. **Destination Folder** の画面が表示されるため、そのまま **Next** をクリックします。
+5. **Custom Setup** の画面が表示されるため、そのまま **Next** をクリックします。
+6. **Tools for Native Modules** の画面が表示されるため、そのまま **Next** をクリックします。
+7. **Ready to Install Node.js** の画面が表示されるため、**Install** をクリックします。
+8. **このアプリがデバイスに変更を加えることを許可しますか？** の画面が表示された場合は **はい** をクリックします。
+9. インストールが完了したら、**Finish** をクリックしてインストーラーを終了します。
 
 ### 3. インストールの確認
 
-インストールが完了したら、タスクバーの「検索」に「ターミナル」と入力し、「ターミナル」を開いて以下のコマンドを実行し、Node.js が正しくインストールされたことを確認します。
+Node.js と npm（Node Package Manager）が正しくインストールされたか確認しましょう。
+
+#### Node.js のバージョン確認
+
+ターミナル（PowerShell）で以下のコマンドを実行します。
 
 ```bash
 node -v
 ```
 
+#### Node.js のバージョン表示の例
+
 正しくインストールされている場合は、以下のようにバージョンが表示されます。
 
-```bash
+```
 v20.18.0
+```
+
+#### npm のバージョン確認
+
+```bash
+npm -v
+```
+
+#### npm のバージョン表示の例
+
+正しくインストールされている場合は、以下のようにバージョンが表示されます。
+
+```
+10.8.2
 ```
